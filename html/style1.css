@@ -1,0 +1,46 @@
+body{
+   
+    background:url("https://thumbs.dreamstime.com/b/holding-earth-green-tree-hands-world-environment-day-concept-saving-growing-young-tree-element-image-furnished-74844293.jpg");
+    background-size:cover;
+    font-family: sans-serif;
+
+}
+.contain
+{
+background-color: teal;;
+width: 60%;
+margin: auto;
+overflow: hidden;
+padding:initial;
+text-align: center;
+margin-top: 7%;
+
+}
+.fb
+{
+    padding: 0.5rem;
+    color: #fff;
+    background-color: #426782;
+    border: none;
+    border-radius: 5px;
+}
+.contain input
+
+{
+    padding: 0.5rem;
+    width: 70%;
+
+}
+.contain input[type=checkbox]
+{
+    width: auto;
+}
+.bnt
+{
+    padding: 0.5rem;
+    background-color:#2ecc71;
+    font-size: 1rem;
+    width: 50%;
+    border: none;
+    border-radius: 7px;
+}
