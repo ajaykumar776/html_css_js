@@ -1,0 +1,25 @@
+nav
+{
+    background-color: tomato;
+}
+#heading
+{
+    color:red;
+    text-align: center;
+    font-size: medium;
+    padding:5px 5px 5px 5px ;
+}
+#name{
+    color:blueviolet;
+    text-align: left;
+    font-size: x-large;
+    padding: 5px 5px 5px 5px;
+}
+#logo
+{
+    color:greenyellow;
+    text-align: right;
+    font-size: x-large;
+    padding: 5px 5px 5px 5px;
+
+}

@@ -1,0 +1,132 @@
+/* 6. */
+/* .main {
+    display: flex;
+}
+.myDiv1 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+.myDiv2 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+} */
+
+/* 7. */
+/* .main {
+    display: flex;
+}
+.myDiv1 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+.myDiv2 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+} */
+
+/* 11. */
+/* .main {
+    display: flex;
+}
+.myDiv1 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+.myDiv2 {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+} */
+
+/* 12. */
+/* #myPanel1,#myPanel2 {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(109, 9, 9);
+    border: 5px solid rgb(20, 37, 46);
+    color : white
+}
+
+#myPanel2 {
+    padding: 50px;
+    display: none;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+} */
+
+/* 13. */
+/* #myPanel1,#myPanel2 {
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(109, 9, 9);
+    border: 5px solid rgb(20, 37, 46);
+    color : white
+}
+
+#myPanel2 {
+    padding: 50px;
+    display: none;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+} */
+
+/* 14. */
+/* h1 {
+    color : red;  
+}
+#myDiv1,#myDiv2,#myDiv3 {
+    width: 250px;
+    height: 100px;
+
+}
+#myDiv1 {
+    background-color: red;
+}
+#myDiv2 {
+    background-color: blue;
+}
+#myDiv3 {
+    background-color: green;
+} */
+
+/* 15 */
+/* h1 {
+    color : red;  
+}
+#myDiv1,#myDiv2,#myDiv3 {
+    width: 250px;
+    height: 100px;
+
+}
+#myDiv1 {
+    background-color: red;
+}
+#myDiv2 {
+    background-color: blue;
+}
+#myDiv3 {
+    background-color: green;
+} */
+
+.container * {
+    display: block;
+    border: 1px solid rgb(53, 90, 53);
+    color: rgb(53, 90, 53);
+    padding: 5px;
+    margin: 15px;
+    background: rgb(245, 248, 248);
+}
+body {
+    background: cadetblue;
+}

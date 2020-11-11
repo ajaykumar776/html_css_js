@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>             /*we have written here internal css,we can also use inline css, but for that we have to make individually boxex for each header and datas. thats why we have used here internal css, wherever be the table will be it will follow it.*/
+            table,th,td {                      
+                /* background-color: rgb(75, 80, 80); */
+                color: rgb(20, 20, 20);       
+                border : 1px solid;      /*when not collapsed one table is needed.*/
+                border-collapse: collapse;    /*when collapsed one table is needed.*/
+            }
+            th,td {             /*here in this internal css , we are doing padding(space) between the cells.so only those things is written here, in which that css will be implement*/
+                padding : 10px;
+            }
+            th {        /*in this css, it will align the table header in the left, by default it will be in the centre and bold.*/
+                text-align: left;
+            }
+            /* table {           
+                border-spacing: 5px;
+            } */      /*it has used here becoz, when we need a table with not collapsed one,then if we want to increase the space between cells, then we can use it.*/
+        </style>
+
+    </head>
+    <body>
+        <table style="width:100%;">         <!--it is used here becoz,we are taking the width of the table as a entire page,if we will not take , then our new table will be small one.-->
+            <caption style="color: blue;"><b>Students table :</b></caption>         <!--caption is used for title of the table.-->
+            <tr>                    <!--tr tag is used for table row.so basically here, we formed the table row by row.-->
+                <th>Sno.</th>       <!--th tag is used for table header , or can say to make columns.-->
+                <th colspan="2">Name</th>       <!--here we have used colspan,it divides the column into certain small lenght col.we can also use rowspan.-->
+                <th>Gender</th>
+            </tr>
+            <tr>
+                <td>1.</td>         <!--td tag is used for table data or cell. so every data whatever we to insert,will be written here.-->
+                <td>Aaqib</td>
+                <td>Gouher</td>
+                <td>M</td>               
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>Nazish</td>
+                <td>Fraz</td>
+                <td>M</td>               
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td>Nikhat</td>
+                <td>Perween</td>
+                <td>F</td>               
+            </tr>
+
+        </table>
+    </body>
+</html>
